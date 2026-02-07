@@ -1,9 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#d4af37"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"MobiCom":
+  url: https://www.sigmobile.org/mobicom/
+  color: "#1e90ff"
 
-"Vision":
-  color: "#009f36"
+"INFOCOM":
+  url: https://infocom2022.ieee-infocom.org/
+  color: "#006699"
