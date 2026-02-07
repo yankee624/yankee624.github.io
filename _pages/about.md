@@ -68,6 +68,9 @@ SK Hynix, Gyeonggi-do, Republic of Korea<br>
 Educast, Seoul, Republic of Korea<br>
 • *Linear Algebra for Machine Learning* Course Development & Marketing
 
+**Republic of Korea Auxiliary Police** (Feb. 2017 ~ Nov. 2018)<br>
+Korean National Police Agency, Seoul, Republic of Korea<br>
+
 ---
 
 ## Projects
