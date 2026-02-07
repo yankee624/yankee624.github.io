@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Seoul, Republic of Korea</p>
     <p>kchg.yang@gmail.com</p>
 
 selected_papers: false

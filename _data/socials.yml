@@ -2,7 +2,8 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file
-email: kchg.yang@gmail.com
+# email: kchg.yang@gmail.com
 github_username: yankee624
+linkedin_username: kichang-yang-b26655204
+scholar_userid: LrAIc9gAAAAJ
 rss_icon: false # hide RSS icon since no blog
-# scholar_userid: # add your Google Scholar ID if available
