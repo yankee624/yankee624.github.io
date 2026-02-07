@@ -7,24 +7,23 @@ subtitle: Ph.D. Student, <a href='https://cse.snu.ac.kr/en'>Seoul National Unive
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>Seoul National University</p>
     <p>Seoul, Republic of Korea</p>
     <p>kchg.yang@gmail.com</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
 ## Research Interest
@@ -33,18 +32,18 @@ I am deeply passionate about developing innovative systems, with a particular in
 
 ## Education
 
-**Ph.D. in Computer Science & Engineering** (2023 ~ Present)
-Seoul National University, Seoul, Republic of Korea
+**Ph.D. in Computer Science & Engineering** (2023 ~ Present)<br>
+Seoul National University, Seoul, Republic of Korea<br>
 *Advisor: Prof. Youngki Lee*
 
-**M.S. in Computer Science & Engineering** (2021 ~ 2023)
-Seoul National University, Seoul, Republic of Korea
-*Advisor: Prof. Youngki Lee*
+**M.S. in Computer Science & Engineering** (2021 ~ 2023)<br>
+Seoul National University, Seoul, Republic of Korea<br>
+*Advisor: Prof. Youngki Lee*<br>
 **Best Thesis Award** in Computer Science & Engineering Department
 
-**B.S. in Industrial Engineering** (2015 ~ 2021)
-Seoul National University, Seoul, Republic of Korea
-*Minor in Computer Science & Engineering*
+**B.S. in Industrial Engineering** (2015 ~ 2021)<br>
+Seoul National University, Seoul, Republic of Korea<br>
+*Minor in Computer Science & Engineering*<br>
 GPA: 4.05/4.30, **Summa Cum Laude** graduation
 
 ---
@@ -57,18 +56,17 @@ GPA: 4.05/4.30, **Summa Cum Laude** graduation
 
 ## Experience
 
-**Applied Scientist Intern** (Jul. 2024 ~ Oct. 2024)
-[Amazon](https://www.amazon.com/), California, US
+**Applied Scientist Intern** (Jul. 2024 ~ Oct. 2024)<br>
+Amazon, California, US<br>
 • Efficient On-device Video Understanding with Large Vision Language Models
 
-**Data Science Intern** (Jun. 2019 ~ Aug. 2019)
-[SK Hynix](https://www.skhynix.com/), Gyeonggi-do, Republic of Korea
-• Deep Learning based DRAM Module Visual Inspection Process
-• **Best Project Award**
+**Data Science Intern** (Jun. 2019 ~ Aug. 2019)<br>
+SK Hynix, Gyeonggi-do, Republic of Korea<br>
+• Deep Learning based DRAM Module Visual Inspection Process (Best Project Award)<br>
 
-**Product Manager Intern** (Dec. 2018 ~ Feb. 2019)
-Educast, Seoul, Republic of Korea
-• Online course development (Linear Algebra for Machine Learning) & Marketing experiments
+**Product Manager Intern** (Dec. 2018 ~ Feb. 2019)<br>
+Educast, Seoul, Republic of Korea<br>
+• *Linear Algebra for Machine Learning* Course Development & Marketing
 
 ---
 
@@ -79,7 +77,6 @@ Educast, Seoul, Republic of Korea
 {% for project in sorted_projects %}
   <div class="project">
     <h3>{{ project.title }}</h3>
-    <p class="project-date">{{ project.date }}</p>
     <p>{{ project.description }}</p>
   </div>
 {% endfor %}
