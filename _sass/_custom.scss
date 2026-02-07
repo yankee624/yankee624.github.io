@@ -1,27 +1,76 @@
-// Custom styles for publications
+// =============================================================================
+// Custom styles for personal homepage
+// =============================================================================
 
 .bibliography {
-  // Make publication titles bold
+  // ---------------------------------------------------------------------------
+  // List styling: Remove default numbering
+  // ---------------------------------------------------------------------------
+  &.bibliography {
+    list-style: none !important;
+    padding-left: 0 !important;
+
+    > li {
+      list-style: none !important;
+      list-style-type: none !important;
+      margin-bottom: 2rem;
+
+      &::before {
+        content: none !important;
+      }
+    }
+  }
+
+  // ---------------------------------------------------------------------------
+  // Typography: Bold titles and author names
+  // ---------------------------------------------------------------------------
   .title {
     font-weight: bold;
     font-size: 1.1rem;
   }
-  
-  // Make author name bold (already wrapped in <em> by default)
-  .author em,
-  .author strong {
-    font-weight: bold;
-    font-style: normal;
+
+  .author {
+    em,
+    strong {
+      font-weight: bold;
+      font-style: normal;
+    }
   }
-  
-  // Make venue abbreviation more prominent
-  .abbr {
-    font-weight: 600;
+
+  // ---------------------------------------------------------------------------
+  // Thumbnail styling: Fixed height with aspect ratio preservation
+  // ---------------------------------------------------------------------------
+
+  // Hide abbr badge in thumbnail column (displayed above title instead)
+  .col.abbr .badge,
+  .col-sm-3 .badge {
+    display: none !important;
   }
-  
-  // Increase thumbnail size
+
+  // Fixed height container for consistent thumbnail size
+  .col.abbr,
+  .col-sm-3 {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  // Thumbnail image: scale to fit without cropping
   .preview {
     width: 100%;
+    height: 100%;
     max-width: 200px;
+    max-height: 150px;
+    object-fit: contain !important;
+    object-position: center;
+  }
+
+  // ---------------------------------------------------------------------------
+  // Row layout: Consistent alignment
+  // ---------------------------------------------------------------------------
+  .row {
+    align-items: flex-start;
   }
 }
