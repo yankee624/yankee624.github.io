@@ -1,0 +1,27 @@
+// Custom styles for publications
+
+.bibliography {
+  // Make publication titles bold
+  .title {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  // Make author name bold (already wrapped in <em> by default)
+  .author em,
+  .author strong {
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  // Make venue abbreviation more prominent
+  .abbr {
+    font-weight: 600;
+  }
+  
+  // Increase thumbnail size
+  .preview {
+    width: 100%;
+    max-width: 200px;
+  }
+}
