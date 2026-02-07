@@ -1,0 +1,3 @@
+- Publications에 slide, code, copy_bibtex 등 추가 (https://jingyulee.com/ 참조)
+- honors&award, professional service, teaching, invited talk 등 넣을지
+- Projects 다듬기

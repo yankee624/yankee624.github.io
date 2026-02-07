@@ -398,11 +398,6 @@ ninja.data = [{
           description: "Taxonomy of pain points and design guidelines for CVAI pipelines",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_cvai/";
-            },},{id: "projects-document-search-engine",
-          title: 'Document Search Engine',
-          description: "Search engine optimization with Google search integration",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_search_engine/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
@@ -414,11 +409,11 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-email',
-        title: 'email',
+        id: 'social-cv',
+        title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6B%63%68%67.%79%61%6E%67@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("/assets/pdf/cv.pdf", "_blank");
         },
       },{
         id: 'social-github',
@@ -426,6 +421,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/yankee624", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/kichang-yang-b26655204", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=LrAIc9gAAAAJ", "_blank");
         },
       },{
         id: 'social-rss',
