@@ -4,7 +4,6 @@ title: Document Search Engine
 description: Search engine optimization with Google search integration
 importance: 3
 category: coursework
-date: Mar. 2019 ~ Jun. 2019
 ---
 
 ## Document Search Engine

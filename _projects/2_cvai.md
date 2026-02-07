@@ -4,7 +4,6 @@ title: Design Guidelines for Continuous Vision AI (CVAI)
 description: Taxonomy of pain points and design guidelines for CVAI pipelines
 importance: 2
 category: research
-date: Jun. 2021 ~ Dec. 2021
 ---
 
 ## Design Guidelines for Continuous Vision AI (CVAI)

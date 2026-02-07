@@ -4,7 +4,6 @@ title: Orchestra
 description: DNN Inference Framework for Heterogeneous Processors on Mobile SoC
 importance: 1
 category: research
-date: Jan. 2025 ~ Present
 ---
 
 ## Orchestra: DNN Inference Framework for Heterogeneous Processors on Mobile SoC
