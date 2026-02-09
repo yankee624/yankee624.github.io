@@ -27,6 +27,15 @@
   .title {
     font-weight: bold;
     font-size: 1.1rem;
+
+    a {
+      color: var(--global-text-color);
+      
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
   }
 
   .author {
