@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yankee624.github.io/sitemap.xml
+Sitemap: https://kichang.me/sitemap.xml
