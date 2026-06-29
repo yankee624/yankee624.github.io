@@ -33,16 +33,16 @@ I am deeply passionate about developing innovative systems, with a particular in
 
 **Ph.D. in Computer Science & Engineering** (2023 ~ Present)<br>
 Seoul National University, Seoul, Republic of Korea<br>
-*Advisor: Prof. Youngki Lee*
+_Advisor: Prof. Youngki Lee_
 
 **M.S. in Computer Science & Engineering** (2021 ~ 2023)<br>
 Seoul National University, Seoul, Republic of Korea<br>
-*Advisor: Prof. Youngki Lee*<br>
+_Advisor: Prof. Youngki Lee_<br>
 **Best Thesis Award** in Computer Science & Engineering Department
 
 **B.S. in Industrial Engineering** (2015 ~ 2021)<br>
 Seoul National University, Seoul, Republic of Korea<br>
-*Minor in Computer Science & Engineering*<br>
+_Minor in Computer Science & Engineering_<br>
 GPA: 4.05/4.30, **Summa Cum Laude** graduation
 
 ---
@@ -65,7 +65,7 @@ SK Hynix, Gyeonggi-do, Republic of Korea<br>
 
 **Product Manager Intern** (Dec. 2018 ~ Feb. 2019)<br>
 Educast, Seoul, Republic of Korea<br>
-• *Linear Algebra for Machine Learning* Course Development & Marketing
+• _Linear Algebra for Machine Learning_ Course Development & Marketing
 
 **Republic of Korea Auxiliary Police** (Feb. 2017 ~ Nov. 2018)<br>
 Korean National Police Agency, Seoul, Republic of Korea<br>

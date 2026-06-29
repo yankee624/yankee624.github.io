@@ -30,7 +30,7 @@
 
     a {
       color: var(--global-text-color);
-      
+
       &:hover {
         color: var(--global-theme-color);
         text-decoration: none;
@@ -92,7 +92,7 @@
   text-align: center;
 
   img {
-    max-width: 150px !important;  // Reduce profile image size
+    max-width: 150px !important; // Reduce profile image size
     width: 100%;
   }
 
